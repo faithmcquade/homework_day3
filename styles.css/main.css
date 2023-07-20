@@ -1,0 +1,184 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -300px;
+}
+
+.logo img{
+    max-width: 600px;
+}
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 130px;
+    padding-bottom: 50px;
+}
+
+
+h1 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+}
+  
+label {
+    margin-bottom: 5px;
+}
+  
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+button {
+    padding: 12px 20px;
+    background-color: #a4f3b4;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: -20px;
+}
+  
+button:hover {
+    background-color: #a4f3b4;
+}
+  
+a {
+    color:rgb(181, 154, 234);
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+
+.line-container {
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+}
+
+hr {
+    position: relative;
+    border: none;
+    height: 1px;
+    background-color: white;
+    width: 30%; 
+    margin: 0 auto;  
+}
+
+hr::before,
+hr::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 1px;
+    background-color: #9d9595;
+  }
+
+  hr::before{
+    left: 0;
+  }
+
+  hr::after{
+    right: 0;
+  }
+  
+  .line-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #888;
+  } 
+
+  #email,
+  #password{
+    margin-bottom: 40px;
+  }
+
+  .email-label{
+    margin-bottom: 17px;
+  }
+
+  .password-container{
+    display:flex;
+    align-items:center;
+  }
+  
+  .password-label{
+    flex-grow: 1;
+    margin-left: 55px;
+    margin-bottom: 15px;
+  }
+
+  .forgot-password{
+    margin-left: 10px;
+    margin-bottom: 15px;
+  }
+
+  .help-link {
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+
+  .box{
+    width: 30%;
+    height: 40px;
+    background-color: #f0f2f5;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(170, 169, 169);
+  }
+
+  .bottom-line {
+    margin-top: 80px;
+    width: 100%;
+  }
+
+  .links-container{
+    text-align: center;
+    margin: 70px;
+  }
+.links-container a{
+    text-decoration: none;
+    color: rgb(181, 154, 234);
+    margin: 0 20px;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: -30px;
+}
